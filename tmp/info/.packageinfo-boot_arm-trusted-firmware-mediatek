@@ -1,0 +1,79 @@
+Source-Makefile: package/boot/arm-trusted-firmware-mediatek/Makefile
+
+Package: arm-trusted-firmware-mt7622-nor
+Version: 2020-11-09-03017334ccd8c0fac12e7db36749b95b9a7d745f-0
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread @TARGET_mediatek_mt7622 @BROKEN
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Variant: nor
+Section: boot
+Category: Boot Loaders
+Title: ARM Trusted Firmware for MT7622
+Maintainer: Daniel Golle <daniel@makrotopia.org>
+Source: arm-trusted-firmware-mediatek-2020-11-09-03017334ccd8c0fac12e7db36749b95b9a7d745f.tar.xz
+License: BSD-3-Clause
+LicenseFiles: docs/license.rst
+Type: bin
+Description: ARM Trusted Firmware for MT7622
+Daniel Golle <daniel@makrotopia.org>
+@@
+
+Package: arm-trusted-firmware-mt7622-snand
+Version: 2020-11-09-03017334ccd8c0fac12e7db36749b95b9a7d745f-0
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread @TARGET_mediatek_mt7622 @BROKEN
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Variant: snand
+Section: boot
+Category: Boot Loaders
+Title: ARM Trusted Firmware for MT7622
+Maintainer: Daniel Golle <daniel@makrotopia.org>
+Source: arm-trusted-firmware-mediatek-2020-11-09-03017334ccd8c0fac12e7db36749b95b9a7d745f.tar.xz
+License: BSD-3-Clause
+LicenseFiles: docs/license.rst
+Type: bin
+Description: ARM Trusted Firmware for MT7622
+Daniel Golle <daniel@makrotopia.org>
+@@
+
+Package: arm-trusted-firmware-mt7622-emmc
+Version: 2020-11-09-03017334ccd8c0fac12e7db36749b95b9a7d745f-0
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread @TARGET_mediatek_mt7622 @BROKEN
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Variant: emmc
+Section: boot
+Category: Boot Loaders
+Title: ARM Trusted Firmware for MT7622
+Maintainer: Daniel Golle <daniel@makrotopia.org>
+Source: arm-trusted-firmware-mediatek-2020-11-09-03017334ccd8c0fac12e7db36749b95b9a7d745f.tar.xz
+License: BSD-3-Clause
+LicenseFiles: docs/license.rst
+Type: bin
+Description: ARM Trusted Firmware for MT7622
+Daniel Golle <daniel@makrotopia.org>
+@@
+
+Package: arm-trusted-firmware-mt7622-sdmmc
+Version: 2020-11-09-03017334ccd8c0fac12e7db36749b95b9a7d745f-0
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread @TARGET_mediatek_mt7622 @BROKEN
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Variant: sdmmc
+Section: boot
+Category: Boot Loaders
+Title: ARM Trusted Firmware for MT7622
+Maintainer: Daniel Golle <daniel@makrotopia.org>
+Source: arm-trusted-firmware-mediatek-2020-11-09-03017334ccd8c0fac12e7db36749b95b9a7d745f.tar.xz
+License: BSD-3-Clause
+LicenseFiles: docs/license.rst
+Type: bin
+Description: ARM Trusted Firmware for MT7622
+Daniel Golle <daniel@makrotopia.org>
+@@
+
+
